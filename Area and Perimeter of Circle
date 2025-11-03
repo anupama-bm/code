@@ -1,0 +1,14 @@
+Area and Perimeter of Circle
+Program Description
+Given the radius of circle. Find the area and perimeter of the circle
+#include<stdio.h>
+#include<math.h>
+int main(){
+int r;
+float a,p, pi=3.14;
+scanf("%d",&r);
+a=pi*r*r;
+p=2*pi*r;
+printf("%.2f",a);
+printf("%.2f",p);
+}
