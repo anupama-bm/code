@@ -1,0 +1,10 @@
+Find the Hypotenuse of a right angled triangle with two given sides X,Y.
+#include<stdio.h>
+#include<math.h>
+int main(){
+int x,y;
+double z;
+scanf("%d %d",&x,&y);
+z=sqrt(pow(x,2)+pow(y,2));
+printf("%.21f",z);
+}
